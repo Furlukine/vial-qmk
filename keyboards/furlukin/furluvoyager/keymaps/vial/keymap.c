@@ -30,12 +30,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1,      KC_F2,  KC_F3,  KC_F4,  KC_F5,    KC_F6,                    KC_NO,      KC_NO,      KC_PSLS,    KC_PAST,    KC_PMNS,        KC_PSCR,
         KC_F7,		KC_F8,  KC_F9,	KC_F10, KC_F11,   KC_F12,                   KC_NO,      KC_P7,      KC_P8,	    KC_KP_9,   	KC_KP_PLUS,		_______,
         _______,	KC_NO,  KC_NO, 	KC_NO,  KC_NO,    KC_NO,                    KC_NO,      KC_P4,      KC_P5,	    KC_P6,   	KC_PENT,	    _______,
-        _______, 	KC_NO,	KC_NO, 	KC_NO,  KC_NO,    KC_NO,                    KC_NO,  	KC_P1,	    KC_P2,	    KC_P3,	    KC_PDOT,	    KC_NO,
+        _______, 	KC_NO,	KC_NO, 	KC_NO,  KC_NO,    KC_NO,                    KC_NO,  	KC_P1,	    KC_P2,	    KC_P3,	    KC_PDOT,	    _______,
 									    	KC_ESC,   MO(1), 	                MO(2),  	KC_KP_0
 	),
     [2] = LAYOUT_split_4x6_2(
         KC_NO,      FR_LPRN,    FR_RPRN,    FR_LCBR,    FR_RCBR,  FR_PIPE,                  KC_NO,      KC_NO,      KC_NO,      KC_SCRL,    KC_PAUS,    KC_PSCR,
-        _______,	FR_AT,      FR_CCED,	FR_CIRC,    FR_DIAE,  FR_UGRV,                  KC_NO,      KC_NO,		KC_NO,		KC_NO,   	KC_NO,		KC_NO,
+        KC_TAB,	    FR_AT,      FR_CCED,	FR_CIRC,    FR_DIAE,  FR_UGRV,                  KC_NO,      KC_NO,		KC_NO,		KC_NO,   	KC_NO,		KC_NO,
         _______,	KC_NO,      FR_BSLS, 	FR_SLSH,    FR_LBRC,  FR_RBRC,                  KC_PGUP,    KC_HOME,	KC_UP,		KC_END,    	KC_NO,		KC_NO,
         _______, 	KC_LGUI,	KC_LALT, 	KC_NO,      KC_NO,    KC_NO,                    KC_PGDN,    KC_LEFT,    KC_DOWN,	KC_RGHT,    KC_NO,	    KC_NO,
 									    		        KC_SPC,   MO(1), 	                MO(2),      KC_NO  	  
