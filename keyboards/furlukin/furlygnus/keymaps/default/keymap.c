@@ -32,11 +32,11 @@ qk_tap_dance_action_t tap_dance_actions[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_4x6_3(
-        TD(TD_ESC_SUP2),  KC_1,   KC_2,   KC_3,     KC_4,     KC_5,             KC_6,       KC_7,       KC_8,       KC_9,       KC_0,       KC_PSCR,
-        KC_TAB,		        FR_A,   FR_Z,	  FR_E,    	FR_R,    	FR_T,             FR_Y,       FR_U,		    FR_I,		    FR_O,   	  FR_P,		    KC_BSP,
-        KC_LSFT,	        FR_Q,   FR_S, 	FR_D,    	FR_F,    	FR_G,             FR_H,       FR_J,       FR_K,		    FR_L,   	  FR_M,		    KC_DEL,
-        KC_LCTL, 	        FR_W,	  FR_X, 	FR_C,    	FR_V,    	FR_B,             FR_N,  		  FR_COMM,	  FR_SCLN,	  FR_COLN,	  FR_EXLM,	  KC_LALT,
-									    		                KC_WIN,   KC_ENT,   MO(1), 	          MO(2),      KC_SPC,     KC_SPC
+        TD(TD_ESC_SUP2),  KC_1,   KC_2,   KC_3,       KC_4,     KC_5,             KC_6,       KC_7,       KC_8,       KC_9,       KC_0,       KC_PSCR,
+        KC_TAB,		        FR_A,   FR_Z,	  FR_E,    	  FR_R,    	FR_T,             FR_Y,       FR_U,		    FR_I,		    FR_O,   	  FR_P,		    KC_BSP,
+        KC_LSFT,	        FR_Q,   FR_S, 	FR_D,    	  FR_F,    	FR_G,             FR_H,       FR_J,       FR_K,		    FR_L,   	  FR_M,		    KC_DEL,
+        KC_LCTL, 	        FR_W,	  FR_X, 	FR_C,    	  FR_V,    	FR_B,             FR_N,  		  FR_COMM,	  FR_SCLN,	  FR_COLN,	  FR_EXLM,	  KC_LALT,
+									    		                KC_LWIN,    KC_ENT,   MO(1), 	          MO(2),      KC_SPC,     KC_SPC
 	),
     [1] = LAYOUT_split_4x6_3(
         KC_F1,    KC_F2,  KC_F3,  KC_F4,    KC_F5,    KC_F6,                    KC_NO,      KC_NO,      KC_PSLS,    KC_PAST,    KC_PMNS,      KC_PSCR,
